@@ -28,7 +28,7 @@ def operator_selector(first_number,operator,second_number):
         correct_operator = False
         print("Select a valid operator")
         operator = input("Enter a mathmatical operator (+,-,/,*): ")
-        resut = operator_selector(first_number, operator, second_number)
+        result = operator_selector(first_number, operator, second_number)
 
     if(correct_operator == True):
         display_result(first_number,operator,second_number,result)
